@@ -1,6 +1,3 @@
-Here’s a `README.md` template for your project. This includes installation steps, prerequisites, usage, and other important information for users who might want to use or contribute to your `MSVC_19.dll` PHP extension.
-
----
 
 # MSVC_19 PHP Extension
 
