@@ -1,0 +1,808 @@
+﻿  win32ps.c
+C:\php-sdk\include\Zend\zend_gc.h(155,22): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\irtaz\Downloads\Compressed\win32ps-main\win32ps-main\win32ps.c(161,61): warning C4020: 'add_assoc_string': too many actual parameters
+C:\Users\irtaz\Downloads\Compressed\win32ps-main\win32ps-main\win32ps.c(175,65): warning C4020: 'add_assoc_string': too many actual parameters
+C:\Users\irtaz\Downloads\Compressed\win32ps-main\win32ps-main\win32ps.c(183,71): warning C4020: 'add_assoc_string': too many actual parameters
+C:\Users\irtaz\Downloads\Compressed\win32ps-main\win32ps-main\win32ps.c(189,61): warning C4020: 'add_assoc_string': too many actual parameters
+C:\Users\irtaz\Downloads\Compressed\win32ps-main\win32ps-main\win32ps.c(193,57): warning C4020: 'add_assoc_string': too many actual parameters
+  Starting pass 1
+  Processed /DEFAULTLIB:php8ts.lib
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+        Found __imp_CloseHandle
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetLastError
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetProcessTimes
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentProcessId
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_OpenProcess
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GlobalMemoryStatusEx
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetSystemTime
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_SystemTimeToFileTime
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found K32EnumProcesses
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found K32GetModuleFileNameExA
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found K32GetProcessMemoryInfo
+          Referenced in win32ps.obj
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+        Found __imp_zend_hash_next_index_insert@@16
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp__zend_new_array@@8
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zend_array_dup@@8
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zval_ptr_dtor
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_add_assoc_long_ex
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_add_assoc_double_ex
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_add_assoc_string_ex
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_add_assoc_zval_ex
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zend_wrong_parameters_none_error@@0
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zend_wrong_parameters_count_error@@16
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zend_wrong_parameter_error@@40
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_zend_parse_arg_long_slow@@24
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_php_error_docref
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_php_info_print_table_header
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_php_info_print_table_row
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_php_info_print_table_start
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __imp_php_info_print_table_end
+          Referenced in win32ps.obj
+          Loaded php8ts.lib(php8ts.dll)
+        Found __IMPORT_DESCRIPTOR_php8ts
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Referenced in php8ts.lib(php8ts.dll)
+          Loaded php8ts.lib(php8ts.dll)
+        Found php8ts_NULL_THUNK_DATA
+          Referenced in php8ts.lib(php8ts.dll)
+          Loaded php8ts.lib(php8ts.dll)
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+        Found _RTC_CheckStackVars
+          Referenced in win32ps.obj
+          Loaded MSVCRT.lib(stack.obj)
+        Found _RTC_InitBase
+          Referenced in win32ps.obj
+          Loaded MSVCRT.lib(init.obj)
+        Found __CheckForDebuggerJustMyCode
+          Referenced in win32ps.obj
+          Loaded MSVCRT.lib(debugger_jmc.obj)
+        Found __GSHandlerCheck
+          Referenced in win32ps.obj
+          Loaded MSVCRT.lib(gshandler.obj)
+        Found __security_check_cookie
+          Referenced in win32ps.obj
+          Referenced in MSVCRT.lib(gshandler.obj)
+          Loaded MSVCRT.lib(amdsecgs.obj)
+        Found __security_cookie
+          Referenced in win32ps.obj
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found _fltused
+          Referenced in win32ps.obj
+          Loaded MSVCRT.lib(fltused.obj)
+        Found _DllMainCRTStartup
+          Loaded MSVCRT.lib(dll_dllmain.obj)
+        Found "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+          Referenced in MSVCRT.lib(stack.obj)
+          Loaded MSVCRT.lib(error.obj)
+        Found _RTC_SetErrorFuncW
+          Referenced in MSVCRT.lib(init.obj)
+          Loaded MSVCRT.lib(userapi.obj)
+        Found __report_gsfailure
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found __security_init_cookie
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found DllMain
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(dll_dllmain_stub.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(tncleanup.obj)
+        Found __scrt_initialize_default_local_stdio_options
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(default_local_stdio_options.obj)
+        Found __scrt_is_nonwritable_in_current_image
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(utility.obj)
+        Found __scrt_get_dyn_tls_init_callback
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(dyn_tls_init.obj)
+        Found __scrt_fastfail
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(utility_desktop.obj)
+        Found _RTC_Initialize
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(initsect.obj)
+        Found __xi_a
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded MSVCRT.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+  Processed /DEFAULTLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+  Processed /DEFAULTLIB:ucrt.lib
+   Processed /DISALLOWLIB:ucrtd.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found __guard_dispatch_icall_fptr
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Referenced in MSVCRT.lib(error.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(initsect.obj)
+          Loaded MSVCRT.lib(guard_support.obj)
+        Found "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPEAEPEA_WKPEAH1K@Z)
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded MSVCRT.lib(pdblkup.obj)
+        Found __isa_available_init
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(cpu_disp.obj)
+        Found _get_startup_argv_mode
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(argv_mode.obj)
+        Found __scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(ucrt_detection.obj)
+        Found _guard_dispatch_icall_nop
+          Referenced in MSVCRT.lib(guard_support.obj)
+          Loaded MSVCRT.lib(guard_dispatch.obj)
+        Found _guard_xfg_dispatch_icall_nop
+          Referenced in MSVCRT.lib(guard_support.obj)
+          Loaded MSVCRT.lib(guard_xfg_dispatch.obj)
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+        Found memcpy
+          Referenced in win32ps.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __C_specific_handler
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __C_specific_handler_noexcept
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __std_type_info_destroy_list
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __current_exception
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __current_exception_context
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found memset
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __vcrt_GetModuleFileNameW
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __vcrt_LoadLibraryExW
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found VCRUNTIME140_NULL_THUNK_DATA
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+        Found __imp_free
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp_malloc
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp__dupenv_s
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+        Found __imp_strncpy_s
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found strlen
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp_strncmp
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp__strnicmp
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __imp___stdio_common_vsprintf
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__wassert
+          Referenced in win32ps.obj
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initterm
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initterm_e
+          Referenced in MSVCRT.lib(dll_dllmain.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found strcpy_s
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found strcat_s
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __stdio_common_vsprintf_s
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found _seh_filter_dll
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _configure_narrow_argv
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initialize_narrow_environment
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initialize_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _register_onexit_function
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _execute_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _crt_atexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _crt_at_quick_exit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _cexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found terminate
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-environment-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found api-ms-win-crt-environment-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+        Found api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+        Found api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+        Found __imp_GetCurrentThreadId
+          Referenced in MSVCRT.lib(debugger_jmc.obj)
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_IsDebuggerPresent
+          Referenced in MSVCRT.lib(error.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RaiseException
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_MultiByteToWideChar
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_WideCharToMultiByte
+          Referenced in MSVCRT.lib(error.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RtlCaptureContext
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RtlLookupFunctionEntry
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RtlVirtualUnwind
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_UnhandledExceptionFilter
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_SetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_TerminateProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_IsProcessorFeaturePresent
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_QueryPerformanceCounter
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetSystemTimeAsFileTime
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_DisableThreadLibraryCalls
+          Referenced in MSVCRT.lib(dll_dllmain_stub.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_InitializeSListHead
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetStartupInfoW
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetModuleHandleW
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_HeapAlloc
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_HeapFree
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetProcessHeap
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_VirtualQuery
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_FreeLibrary
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetProcAddress
+          Referenced in MSVCRT.lib(pdblkup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+  Finished searching libraries
+  Generating .exp file
+     Creating library C:\Projects\MSVC_19\x64\Debug\MSVC_19.lib and object C:\Projects\MSVC_19\x64\Debug\MSVC_19.exp
+  Finished generating .exp file
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+  Finished searching libraries
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+        Found __scrt_stub_for_acrt_initialize
+          Loaded MSVCRT.lib(ucrt_stubs.obj)
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+  Finished searching libraries
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+  Finished searching libraries
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64\ucrt.lib:
+  Finished searching libraries
+  Finished pass 1
+  Searching libraries
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib:
+      Searching C:\php-sdk\lib\php8ts.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\MSVCRT.lib:
+        Found _load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\vcruntime.lib:
+        Found __guard_memcpy_fptr
+          Referenced in MSVCRT.lib(loadcfg.obj)
+          Loaded vcruntime.lib(softmemtag.obj)
+  Finished searching libraries
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\irtaz\AppData\Local\Temp\lnk{5835920F-F4A7-4DB2-A20A-475AA55CD38D}.tmp"
+   "C:\Users\irtaz\AppData\Local\Temp\lnk{4AC18A53-0B6F-4772-927C-916B7A223F68}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Using codepage 1252 as default
+  Creating C:\Users\irtaz\AppData\Local\Temp\lnk{5835920F-F4A7-4DB2-A20A-475AA55CD38D}.tmp
+  
+  
+  C:\Users\irtaz\AppData\Local\Temp\lnk{4AC18A53-0B6F-4772-927C-916B7A223F68}.tmp.
+  Writing 24:2,	lang:0x409,	size 381
+  Invoking cvtres.exe:
+   /machine:amd64
+   /verbose
+   /out:"C:\Users\irtaz\AppData\Local\Temp\lnk{A1A7D2ED-0B4D-41D6-B224-BB1ECE9936EB}.tmp"
+   /readonly
+   "C:\Users\irtaz\AppData\Local\Temp\lnk{5835920F-F4A7-4DB2-A20A-475AA55CD38D}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.40.33812.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:2, language:0x0409, flags:0x30, size:381
+  Unused libraries:
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\user32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\odbccp32.lib
+    C:\Program Files (x86)\Windows Kits\10\Lib\10.0.22621.0\um\x64\psapi.lib
+    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\lib\x64\OLDNAMES.lib
+  Starting pass 2
+       * linker generated manifest res *
+       MSVC_19.exp
+       win32ps.obj
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       php8ts.lib(php8ts.dll)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(default_local_stdio_options.obj)
+       MSVCRT.lib(fltused.obj)
+       MSVCRT.lib(tncleanup.obj)
+       MSVCRT.lib(dll_dllmain.obj)
+       MSVCRT.lib(dll_dllmain_stub.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(ucrt_stubs.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(debugger_jmc.obj)
+       MSVCRT.lib(guard_support.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(dyn_tls_init.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(cpu_disp.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       MSVCRT.lib(error.obj)
+       MSVCRT.lib(init.obj)
+       MSVCRT.lib(initsect.obj)
+       MSVCRT.lib(pdblkup.obj)
+       MSVCRT.lib(stack.obj)
+       MSVCRT.lib(userapi.obj)
+       MSVCRT.lib(gshandler.obj)
+       MSVCRT.lib(amdsecgs.obj)
+       MSVCRT.lib(guard_dispatch.obj)
+       MSVCRT.lib(guard_xfg_dispatch.obj)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(softmemtag.obj)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-string-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-environment-l1-1-0.dll)
+  Finished pass 2
+  MSVC_19.vcxproj -> C:\Projects\MSVC_19\x64\Debug\MSVC_19.dll
