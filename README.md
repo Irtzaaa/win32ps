@@ -1,7 +1,7 @@
 
-# MSVC_19 PHP Extension
+# win32ps PHP Extension
 
-`MSVC_19` is a PHP extension that provides functions for retrieving memory and process information on Windows systems. This extension can be used to monitor system resources, list running processes, and fetch detailed stats on memory and CPU usage per process.
+`win32ps` is a PHP extension that provides functions for retrieving memory and process information on Windows systems. This extension can be used to monitor system resources, list running processes, and fetch detailed stats on memory and CPU usage per process.
 
 ## Features
 
@@ -31,7 +31,7 @@
    - Build the project to create `MSVC_19.dll`.
 
 3. **Move the DLL**:
-   - Copy the generated `MSVC_19.dll` file to your PHP `ext` directory, typically found at:
+   - Copy the generated `win32ps.dll` file to your PHP `ext` directory, typically found at:
      ```plaintext
      C:\path\to\php\ext\
      ```
@@ -41,7 +41,7 @@
 1. Open `php.ini` in your PHP directory (e.g., `C:\path\to\php\php.ini`).
 2. Add the following line to enable the extension:
    ```ini
-   extension=MSVC_19.dll
+   extension=win32ps.dll
    ```
 
 3. Save and close `php.ini`.
@@ -52,7 +52,7 @@ Open a Command Prompt and run:
 ```sh
 php -m
 ```
-You should see `MSVC_19` listed among the loaded extensions.
+You should see `win32ps` listed among the loaded extensions.
 
 ## Usage
 
